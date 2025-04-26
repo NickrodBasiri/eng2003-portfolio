@@ -10,7 +10,10 @@ export default function App() {
         <header className="text-center">
           <h1 className="text-5xl font-extrabold mb-4 text-gray-900">Nickrod Basiri's Communication Portfolio</h1>
           <p className="text-lg text-gray-600">Aspiring Software Engineer | ENG2003W24</p>
+          <div className="flex justify-center gap-3">
             <Button href="https://linkedin.com/in/nickrodbasiri">LinkedIn Profile</Button>
+            <Button href="https://github.com/NickrodBasiri/eng2003-portfolio">Portfolio Repo</Button>
+          </div>
         </header>
 
         {/* who am i */}
